@@ -41,7 +41,7 @@ article {
     padding: 8px;
 }
 
-.socialmedia {
+.socialmedia a {
     text-decoration: none;
     height: auto;
 }
