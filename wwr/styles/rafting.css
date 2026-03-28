@@ -122,12 +122,8 @@ nav a {
     display: grid;
     justify-content: space-around;
     align-content: center;
+    grid-template-columns: 1fr 200px 1fr;
 
-}
-
-.grid p {
-    grid-column: 1/2, 3/4;
-    grid-row: 1/3;
 }
 
 .grid img {
