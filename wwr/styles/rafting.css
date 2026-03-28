@@ -16,7 +16,7 @@
 body {
     font-family: var(--body-font);
     color: var(--accent-color1);
-    background-color: #0D6824;
+    background-color: var(--primary-color);
 
 }
 
@@ -65,7 +65,7 @@ h1 {
     text-align: center;
     opacity: .7;
     background-color: var(--secondary-color);
-    color: white;
+    color: var(--accent-color2);
 
 }
 
