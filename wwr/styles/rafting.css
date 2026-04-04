@@ -154,3 +154,19 @@ footer {
     text-align: center;
     justify-content: space-around;
 }
+
+.contact p {
+    text-align: center;
+    margin: 5px;
+    padding: 0;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    align-items: center;
+
+}
+
+.purpose {}
