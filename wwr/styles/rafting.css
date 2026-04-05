@@ -169,8 +169,7 @@ footer {
 form {
     display: grid;
     grid-template-columns: 1fr 20px 2fr;
-    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 3fr, 1fr;
-    grid text-align: center;
+    text-align: center;
     align-items: center;
     padding: 10px;
     height: 400px
