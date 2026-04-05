@@ -23,8 +23,10 @@
     </header>
 
     <main>
-        <section>
-            <h2>Rapids!</h2>
+        <div class="title">
+            <h1>Rapids!</h1>
+        </div>
+        <section class="contact">
             <div class="contact">
                 <p>123 Main River Street</p>
                 <p>Kolob, California</p>
@@ -32,37 +34,69 @@
                 <p>info@whitewater.com</p>
             </div>
         </section>
-        <section class="flex">
-            <form action="">
+
+        <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d70058.17569320904!2d-90.68383020161188!3d39.102754588668674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1775348306373!5m2!1sen!2sus"
+              width="400" height="420" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <section>
+            <form>
+
 
                 <label for="Name">Name</label>
-                <input type="text" id="Name" name="Name">
+                <input type="text" id="Name" name="Name" class="name">
 
                 <label for="email">Email Address</label>
-                <input type="email" id="email" name="email">
+                <input type="email" id="email" name="email" class="email">
 
                 <div class="purpose">
                     <label for="purpose">Message Purpose</label>
-                    <input type="radio" id="purpose" name="purpose">
-                    <input type="radio" id="GI" name="GI">
-                    <label for="Suggestion">Website Suggestion</label>
-                    <input type="radio" id="Suggestion" name="Suggestion">
-                </div>
-
-                <div>
-                    <label for="message">Your Message</label>
-                    <textarea name="message" id="message" aria-colspan="2"></textarea>
 
                 </div>
+
+                <input type="radio" id="GI" name="Purpose">
+                <label for="GI">General Inquiry</label>
+
+                <input type="radio" id="Question" name="Purpose">
+                <label for="Question">Reservation Question</label>
+
+                <input type="radio" id="Suggestion" name="Purpose">
+                <label for="Sueggestion">Website Suggestion</label>
+
+
+                <div class="message">
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" width="100%"></textarea>
+
+                </div>
+
+                <input type="checkbox">
+                <label for="checkbox" class="checkbox">Please subscribe me to the monthly
+                    newsletter</label>
+
+                <button type="submit">Get in touch!</button>
             </form>
-            <div class="map">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d41743.50914536467!2d-90.66523843589025!3d38.95585411365311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1775339973270!5m2!1sen!2sus"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2>We are here to serve you!</h2>
+            <div Class="flex">
+                <figure>
+                    <img src="images/man1.webp" alt="group">
+                    <figcaption>Cameron - Founder</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/man2.webp" alt="oars">
+                    <figcaption>Jacob - Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/woman.webp" alt="rafting">
+                    <figcaption>Sara - Customer Experience specialist</figcaption>
+                </figure>
             </div>
         </section>
-
 
     </main>
 

@@ -155,6 +155,11 @@ footer {
     justify-content: space-around;
 }
 
+.title {
+    position: relative;
+    height: 75px;
+}
+
 .contact p {
     text-align: center;
     margin: 5px;
@@ -163,10 +168,36 @@ footer {
 
 form {
     display: grid;
-    grid-template-columns: 1fr 2fr;
-    text-align: center;
+    grid-template-columns: 1fr 20px 2fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr, 1fr, 3fr, 1fr;
+    grid text-align: center;
     align-items: center;
-
+    padding: 10px;
+    height: 400px
 }
 
-.purpose {}
+.purpose {
+    grid-row: 3/6;
+}
+
+.name,
+.email,
+.checkbox {
+    grid-column: 2/4;
+}
+
+.message {
+    grid-column: 1/4;
+    width: 100%;
+}
+
+button {
+    grid-column: 1/4;
+}
+
+.map {
+    float: left;
+    width: 50%;
+    height: 400px;
+    margin: 0;
+}
