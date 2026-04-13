@@ -123,6 +123,7 @@ nav a {
     justify-content: space-around;
     align-content: center;
     grid-template-columns: 1fr 200px 1fr;
+    text-decoration: none;
 
 }
 
@@ -198,5 +199,83 @@ button {
     float: left;
     width: 50%;
     height: 400px;
-    margin: 0;
+    margin: 20px;
+}
+
+.mission a {
+    text-decoration: none;
+    color: var(--accent-color2);
+}
+
+.mission {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 10px;
+}
+
+.mission img {
+    width: 220px;
+    position: relative;
+}
+
+.mission figure {
+    position: relative;
+}
+
+.mission figcaption {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    background-color: #13079D;
+}
+
+.hero a {
+    text-decoration: none;
+    color: var(--accent-color2);
+    text-align: center;
+    font-size: x-large;
+
+}
+
+h3 {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    margin-left: 30px;
+    color: var(--accent-color2);
+}
+
+.trips img {
+    float: right;
+    width: 400px;
+    margin: 10px;
+}
+
+.trips2 img {
+    float: left;
+    width: 300px;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    margin: 10px 10px 10px 100px;
+}
+
+th {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: white;
+    color: black;
 }
